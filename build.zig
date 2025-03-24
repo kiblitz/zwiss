@@ -13,6 +13,7 @@ pub fn build(b: *std.Build) void {
         .name = "zwiss",
         .root_module = exe_mod,
     });
+    exe.root_module.addImport("args", b.dependency("args", .{ .target = target, .optimize = optimize }).module("args"));
     b.installArtifact(exe);
 
     const run_cmd = b.addRunArtifact(exe);

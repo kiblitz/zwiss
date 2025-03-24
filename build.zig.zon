@@ -6,9 +6,9 @@
     .minimum_zig_version = "0.15.0-dev.78+9c9d3931d",
 
     .dependencies = .{
-        .vaxis = .{
-            .url = "https://github.com/rockorager/libvaxis/archive/refs/tags/v0.5.1.tar.gz",
-            .hash = "vaxis-0.1.0-AAAAAI9zBQDeI6MkDlAzl-pXneT9hdtCL1N-EANu90cX",
+        .args = .{
+            .url = "git+https://github.com/ikskuh/zig-args?ref=master#9425b94c103a031777fdd272c555ce93a7dea581",
+            .hash = "args-0.0.0-CiLiqv_NAAC97fGpk9hS2K681jkiqPsWP6w3ucb_ctGH",
         },
     },
 
